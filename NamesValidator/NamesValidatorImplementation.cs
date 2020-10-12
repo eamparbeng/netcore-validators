@@ -21,30 +21,39 @@ namespace NamesValidator
 
         public bool IsValidName(string nameCandidate)
         {
+            //Invalid if too short
             if (nameCandidate.Length < MIN_ACCEPTABLE_NAME_LENGTH)
                 return false;
 
+            //Invalid if first character is not an uppercase character
             if (!isUpperCase(nameCandidate[0]))
                 return false;
 
+            //Invalid if starts with a digit
             if (isNumeric(nameCandidate[0]))
                 return false;
 
+            //Invalid if has no consonant
             if (!HasConsonants(nameCandidate))
                 return false;
 
+            //Invalid if has no vowel
             if (!HasConsonants(nameCandidate))
                 return false;
 
+            //Invalid if has more contiguous consonants than is acceptable
             if (HasRepeatedConsonants(nameCandidate))
                 return false;
 
+            //Invalid if has more contiguous vowels than is acceptable
             if (HasRepeatedVowels(nameCandidate))
                 return false;
 
+            //Invalid if has more contiguous digits than is acceptable
             if (HasRepeatedDigits(nameCandidate))
                 return false;
 
+            //Otherwise valid
             return true;
         }
 
