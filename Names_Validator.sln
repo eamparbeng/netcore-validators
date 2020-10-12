@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamesValidator", "NamesValidator\NamesValidator.csproj", "{C9D45B89-39EB-403A-8C1E-24BFAE61EF64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamesValidatorTests", "NamesValidatorTests\NamesValidatorTests.csproj", "{970E2D3A-CE46-445A-9C7E-B21CE846F564}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9D45B89-39EB-403A-8C1E-24BFAE61EF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D45B89-39EB-403A-8C1E-24BFAE61EF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D45B89-39EB-403A-8C1E-24BFAE61EF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D45B89-39EB-403A-8C1E-24BFAE61EF64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970E2D3A-CE46-445A-9C7E-B21CE846F564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970E2D3A-CE46-445A-9C7E-B21CE846F564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970E2D3A-CE46-445A-9C7E-B21CE846F564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970E2D3A-CE46-445A-9C7E-B21CE846F564}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
