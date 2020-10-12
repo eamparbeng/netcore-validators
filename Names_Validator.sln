@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamesValidator", "NamesVali
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamesValidatorTests", "NamesValidatorTests\NamesValidatorTests.csproj", "{970E2D3A-CE46-445A-9C7E-B21CE846F564}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameValidatorConsoleClient", "NameValidatorConsoleClient\NameValidatorConsoleClient.csproj", "{EC8D0E78-3111-4BAD-BB44-D627ED8C1DCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{970E2D3A-CE46-445A-9C7E-B21CE846F564}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{970E2D3A-CE46-445A-9C7E-B21CE846F564}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{970E2D3A-CE46-445A-9C7E-B21CE846F564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC8D0E78-3111-4BAD-BB44-D627ED8C1DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8D0E78-3111-4BAD-BB44-D627ED8C1DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8D0E78-3111-4BAD-BB44-D627ED8C1DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8D0E78-3111-4BAD-BB44-D627ED8C1DCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
