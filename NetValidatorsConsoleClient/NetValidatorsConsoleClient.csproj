@@ -6,6 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NamesValidator\NamesValidator.csproj" />
+    <ProjectReference Include="..\NetValidators\NetValidators.csproj" />
   </ItemGroup>
 </Project>

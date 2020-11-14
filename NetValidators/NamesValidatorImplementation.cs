@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Linq;
 
-namespace NamesValidator
+namespace NetValidators
 {
     public class NamesValidatorImplementation
     {
