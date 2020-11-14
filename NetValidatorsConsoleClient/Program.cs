@@ -1,7 +1,7 @@
 ﻿using System;
-using NamesValidator;
+using NetValidators;
 
-namespace NameValidatorConsoleClient
+namespace NetValidatorsConsoleClient
 {
     class Program
     {

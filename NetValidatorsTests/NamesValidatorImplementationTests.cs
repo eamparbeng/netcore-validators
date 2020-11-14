@@ -1,7 +1,7 @@
 using NUnit.Framework;
-using NamesValidator;
+using NetValidators;
 
-namespace NamesValidatorTests
+namespace NetValidatorsTests
 {
     public class NamesValidatorImplementationTests
     {
